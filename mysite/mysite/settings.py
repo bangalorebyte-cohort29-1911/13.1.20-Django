@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '6k-bk%@apkm^=qp^c!l=cvse4$sw7_m^usp572$yv*j$j58p7b'
+SECRET_KEY = '#5^wc+kww#&*ls%ypt+aaihbp7@^rk$hey*6t79(no20am)$)3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,13 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'polls.apps.PollsConfig'
+    'django.contrib.staticfiles'
 ]
 
 MIDDLEWARE = [
